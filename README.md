@@ -2,6 +2,7 @@
 Below is a collection of work that I have done, mostly Data Science related with machine learning, natural language processing, neural netowrks, an event driven FOREX trading app, and some minor web development for HTML/CSS/Javascript knowledge.
 
 <br>
+
 # Machine Learning
 
 ### [Supervised Machine Learning Project: Predicting Heart Disease](https://github.com/davidhintelmann/Heart-Disease)  
@@ -39,6 +40,7 @@ More information can be found at [Yelp](https://www.yelp.com/dataset/documentati
 Some dataset examples can be found on their [GitHub](https://github.com/Yelp/dataset-examples)
 
 <br>
+
 # Neural Networks
 
 ### [Cactus-neural](https://github.com/davidhintelmann/Cactus-neural)
@@ -57,6 +59,7 @@ First neural network, very simple approach to classifying CIFAR-10 images.
 ---
 
 <br>
+
 # FOREX Trading App
 
 ### [Oanda REST API example](https://github.com/davidhintelmann/Oanda-REST-V20)
@@ -69,6 +72,7 @@ While Oanda-Event is an intro to an event driven software for streaming live pri
 **Warning, this is for educational purposes only.**
 
 <br>
+
 # Minor Web Development
 
 ### [bootstrap.github.io](https://github.com/davidhintelmann/bootstrap.github.io)
