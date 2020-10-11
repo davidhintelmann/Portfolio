@@ -1,5 +1,5 @@
 # David Hintelmann's Portfolio
-Below is a collection of work that I have done, mostly Data Science related with machine learning, neural netowrks, an event driven FOREX trading app, and some minor web development for HTML/CSS/Javascript knowledge.
+Below is a collection of work that I have done, mostly Data Science related with machine learning, natural language processing, neural netowrks, an event driven FOREX trading app, and some minor web development for HTML/CSS/Javascript knowledge.
 
 <br>
 # Machine Learning
