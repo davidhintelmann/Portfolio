@@ -1,7 +1,8 @@
 # David Hintelmann's Portfolio
 Below is a collection of work that I have done, mostly Data Science related with machine learning, neural netowrks, an event driven FOREX trading app, and some minor web development for HTML/CSS/Javascript knowledge.
- 
-## Machine Learning
+
+<br>
+# Machine Learning
 
 ### [Supervised Machine Learning Project: Predicting Heart Disease](https://github.com/davidhintelmann/Heart-Disease)  
 
@@ -25,8 +26,20 @@ Dataset can also be found on [Kaggle](https://www.kaggle.com/jessemostipak/hotel
 
 Spotify’s Web API includes interesting Audio Analysis data for tracks played on [Spotify](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-analysis/​) and the intention is to use this low-level audio analysis for all the tracks in the entire Spotify Catalog. We are only using a sliver of the catalog that has been obtained from [Kaggle’s](https://www.kaggle.com/theoverman/the-spotify-hit-predictor-dataset) dataset, “The Spotify Hit Predictor Dataset (1960-2019)”. Features (columns) of this dataset are listed in the Data Preparation section below in greater detail and used to develop a machine learning model to predict if a track will be a “hit” or “flop”, making this a binary classification challenge.
 
+---
 
-## Neural Networks
+### [Natural Language Processing](https://github.com/davidhintelmann/Natural-Language-Processing)
+This notebook starts by using PRAW, "The Python Reddit API Wrapper" which will be used to download comments from the subreddit r/news/. PRAW can be used to create chat bots on reddit or just to scrap data from it to gain insights into online social media. I will use to Scapy to then perform natural language processing since this python library already have pretain models for this task. We will try to create an algorithm to detect online harassment, and in particular to flag if a comment has a high likihood of containing hate speech.
+
+---
+
+### [Yelp Dataset](https://github.com/davidhintelmann/Yelp_Investigation)
+This dataset is a small portion of Yelp's businesses, reviews, and user data. It was originally put together for the Yelp Dataset Challenge which is a chance for students to conduct research or analysis on Yelp's data and share their discoveries. In the dataset you'll find information about businesses across 11 metropolitan areas in two countries.  
+More information can be found at [Yelp](https://www.yelp.com/dataset/documentation/main).  
+Some dataset examples can be found on their [GitHub](https://github.com/Yelp/dataset-examples)
+
+<br>
+# Neural Networks
 
 ### [Cactus-neural](https://github.com/davidhintelmann/Cactus-neural)
 Neural Network to detect if an image has a cactus in it or not. Dataset can be found [here](https://www.kaggle.com/c/aerial-cactus-identification)
@@ -41,7 +54,10 @@ Predicting the image's classification using fashion MNIST dataset and the PyTorc
 ### [Simple Neural Network](https://github.com/davidhintelmann/Simple-neural)
 First neural network, very simple approach to classifying CIFAR-10 images.
 
-## FOREX Trading App
+---
+
+<br>
+# FOREX Trading App
 
 ### [Oanda REST API example](https://github.com/davidhintelmann/Oanda-REST-V20)
 
@@ -52,7 +68,8 @@ Oanda-first only has downloading historical data prices for 'EUR_USD' FOREX pric
 While Oanda-Event is an intro to an event driven software for streaming live prices from Oanda as well building on what was learned from Oanda-first to begin data collection for backtesting. Inspiration for the event driven software written in python comes from [Quant Start](https://www.quantstart.com/articles/Forex-Trading-Diary-1-Automated-Forex-Trading-with-the-OANDA-API/).
 **Warning, this is for educational purposes only.**
 
-## Minor Web Development
+<br>
+# Minor Web Development
 
 ### [bootstrap.github.io](https://github.com/davidhintelmann/bootstrap.github.io)
 Learning CSS and Bootstrap
