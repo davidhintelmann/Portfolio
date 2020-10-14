@@ -69,6 +69,10 @@ While Oanda-Event is an intro to an event driven software for streaming live pri
 **Warning, this is for educational purposes only.**
 
 <br>
+# PyQt5 Python GUI
+ Simple Calculator for using [PyQt5](https://pypi.org/project/PyQt5/) GUI library for python. PyQt is the the python port for [Qt](https://www.qt.io), which is a set of cross-platform C++ libraries that implement high-level APIs for accessing many aspects of modern desktop and mobile systems. In the src directory is a fbs project to create a stand alone python executable which will have matplotlib graphs within the app, though this is still a work in progress.
+
+<br>
 # Minor Web Development
 
 ### [bootstrap.github.io](https://github.com/davidhintelmann/bootstrap.github.io)
