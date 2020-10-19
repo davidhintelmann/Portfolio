@@ -73,6 +73,16 @@ While Oanda-Event is an intro to an event driven software for streaming live pri
 
 <br>
 
+# Montreal Exchange (TMX) Web Scraper
+
+### [Datareader TMX](https://github.com/davidhintelmann/Datareader_TMX)
+
+The [Montreal Exchange](https://www.m-x.ca/accueil_en.php) is the oldest exchange in Canada and has a very important history to Canada's economy. This is small web scraping module for acquiring TMX options data which is **delayed by 15 minutes**. It can be used to get options prices, both calls and puts for index and ETF options, equity options, currency options, and weekly options.
+
+These prices are then displayed in a Pandas Dataframe for further analysis. This could include simple plots for visualizing the data or creating machine learning model or neural network to predict future prices. One could, for example, use [Black-Scholes](https://en.wikipedia.org/wiki/Black–Scholes_model) model to gain further insight.
+
+<br>
+
 # PyQt5 Python GUI
 ### [Python GUI](https://github.com/davidhintelmann/PyQt5-)
 Simple Calculator for using [PyQt5](https://pypi.org/project/PyQt5/) GUI library for python. PyQt is the the python port for [Qt](https://www.qt.io), which is a set of cross-platform C++ libraries that implement high-level APIs for accessing many aspects of modern desktop and mobile systems. In the src directory is a fbs project to create a stand alone python executable which will have matplotlib graphs within the app, though this is still a work in progress.
