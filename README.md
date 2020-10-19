@@ -17,9 +17,9 @@ This is notebook was created investigate heart disease using a heart disease dat
 
 This jupyter notebook has one dataset that has two different hotels from Portugal. This data will be analyzed to find any trends or patterns with guests booking into either hotel to try and find a way to minimize the amount of canceled bookings. A machine learning model will also be developed to attempt at predicting if a guest will cancel there booking before checking in.
 
-There is a resort hotel in this dataset, found in the Algarve region of Portugal (southern Portugal), and a city hotel found in the captial Lisbon. Data was acquired directly from hotel's Property Managment System (PMS) SQL according to the paper which the data is originally from. The article is called, "Hotel Booking Demand Datasets", written by Nuno Antonio, Ana Almeida, and Luis Nunes for Data in Brief, Volume 22, February 2019. The artice can be found [here](https://www.sciencedirect.com/science/article/pii/S2352340918315191#bib5)
+There is a resort hotel in this dataset, found in the Algarve region of Portugal (southern Portugal), and a city hotel found in the captial Lisbon. Data was acquired directly from hotel's Property Managment System (PMS) SQL according to the paper which the data is originally from. The article is called, "Hotel Booking Demand Datasets", written by Nuno Antonio, Ana Almeida, and Luis Nunes for Data in Brief, Volume 22, February 2019. The artice can be found [here](https://www.sciencedirect.com/science/article/pii/S2352340918315191#bib5).
 
-Dataset can also be found on [Kaggle](https://www.kaggle.com/jessemostipak/hotel-booking-demand)
+Dataset can also be found on [Kaggle](https://www.kaggle.com/jessemostipak/hotel-booking-demand).
 
 ---
 
@@ -37,14 +37,14 @@ This notebook starts by using PRAW, "The Python Reddit API Wrapper" which will b
 ### [Yelp Dataset](https://github.com/davidhintelmann/Yelp_Investigation)
 This dataset is a small portion of Yelp's businesses, reviews, and user data. It was originally put together for the Yelp Dataset Challenge which is a chance for students to conduct research or analysis on Yelp's data and share their discoveries. In the dataset you'll find information about businesses across 11 metropolitan areas in two countries.  
 More information can be found at [Yelp](https://www.yelp.com/dataset/documentation/main).  
-Some dataset examples can be found on their [GitHub](https://github.com/Yelp/dataset-examples)
+Some dataset examples can be found on their [GitHub](https://github.com/Yelp/dataset-examples).
 
 <br>
 
 # Neural Networks
 
 ### [Cactus-neural](https://github.com/davidhintelmann/Cactus-neural)
-Neural Network to detect if an image has a cactus in it or not. Dataset can be found [here](https://www.kaggle.com/c/aerial-cactus-identification)
+Neural Network to detect if an image has a cactus in it or not. Dataset can be found [here](https://www.kaggle.com/c/aerial-cactus-identification).
 
 ---
 
@@ -92,7 +92,7 @@ Simple Calculator for using [PyQt5](https://pypi.org/project/PyQt5/) GUI library
 # Minor Web Development
 
 ### [bootstrap.github.io](https://github.com/davidhintelmann/bootstrap.github.io)
-Learning CSS and Bootstrap
+Learning CSS and Bootstrap.
 
 ---
 
