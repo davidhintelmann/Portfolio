@@ -1,5 +1,7 @@
 # David Hintelmann's Portfolio
-Below is a collection of work that I have done, mostly Data Science related with machine learning, neural netowrks, an event driven FOREX trading app, and some minor web development for HTML/CSS/Javascript knowledge.
+Below is a collection of work that I have done, mostly Data Science related with machine learning, neural netowrks, an event driven FOREX trading app, and web development for HTML/CSS/Javascript knowledge. I have recently been bitten by the go gopher.
+
+You can also check out my [personal website](https://davidhintelmann.github.io/).
 
 <br>
 
@@ -41,7 +43,7 @@ Some dataset examples can be found on their [GitHub](https://github.com/Yelp/dat
 
 <br>
 
-# Neural Networks
+# Simple Neural Networks
 
 ### [Cactus-neural](https://github.com/davidhintelmann/Cactus-neural)
 Neural Network to detect if an image has a cactus in it or not. Dataset can be found [here](https://www.kaggle.com/c/aerial-cactus-identification).
@@ -62,7 +64,7 @@ First neural network, very simple approach to classifying CIFAR-10 images.
 
 # FOREX Trading App
 
-### [Oanda REST API example](https://github.com/davidhintelmann/Oanda-REST-V20)
+### [Oanda RESTful API example - Using Python](https://github.com/davidhintelmann/Oanda-REST-V20)
 
 This link has two small apps developed for interfacing with [Oandas REST API](http://developer.oanda.com). Specifically using Oandas V-20 REST API.
 
@@ -70,6 +72,62 @@ Oanda-first only has downloading historical data prices for 'EUR_USD' FOREX pric
 
 While Oanda-Event is an intro to an event driven software for streaming live prices from Oanda as well building on what was learned from Oanda-first to begin data collection for backtesting. Inspiration for the event driven software written in python comes from [Quant Start](https://www.quantstart.com/articles/Forex-Trading-Diary-1-Automated-Forex-Trading-with-the-OANDA-API/).
 **Warning, this is for educational purposes only.**
+
+---
+
+### [Oanda RESTful API example - Using Go](https://github.com/davidhintelmann/Oanda-Go)
+
+This repo contains go code for querying Oanda's API for Forex price info. One could also set up a demo account to trade though right now it is only capable of sending GET requests to download JSON data, specifically OHLC data. It is also possible to connect to a local instance of PostgreSQL to save your OHLC data to a SQL database. There will be some additional configuration required to connect to your own instance of PostgreSQL.
+
+<br>
+
+# Go Code
+
+### [Screenshot](https://github.com/davidhintelmann/go-screenshot)
+
+I was looking for different ways to automate capturing a screenshot of my desktop. It would be possible to use python but using go may be faster since it is a compiled language. Then I will need to figure out how to capture portions of my screen instead of the entire thing incase I want to avoid capturing any timestamp from the operating system's clock. You can check out my [blog post](https://davidhintelmann.github.io/posts/third/) to learn more.
+
+---
+
+### [Go and Gin with PostgreSQL](https://github.com/davidhintelmann/gin-postgresql)
+
+Using the [gin webframework](https://gin-gonic.com/) for [go lang](https://go.dev/) and [PostgreSQL](https://www.postgresql.org/) database for creating a simple RESTful API.
+
+For starters I recommend following this [tutorial](https://go.dev/doc/tutorial/web-service-gin) from go lang for using gin web framework for creating a simple RESTful API.
+
+---
+
+### [Go and PostgreSQL](https://github.com/davidhintelmann/PostgreSQL-Go)
+
+This repo contains a small example of using [PostgreSQL](https://www.postgresql.org/) and the [go programming language](https://go.dev/) together.
+
+The [pgx driver](https://github.com/jackc/pgx) is required for connecting to a local instance of PostgreSQL.
+
+The sample data for this repo is from Microsoft's AdventureWorks OLTP [sample database](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms).
+
+The AdventureWorks .bak files are backups for Microsoft SQL Server which we are replacing with PostgreSQL. In order to do this we can follow [lorint repo's](https://github.com/lorint/AdventureWorks-for-Postgres) instructions for converting the files and inserting them into PostgreSQL tables.
+
+From here we can execute raw SQL statements in our go programs.
+
+---
+
+### [Go Slides](https://github.com/davidhintelmann/slides)
+
+This repo has a few examples for using [go lang's](https://go.dev/) tool [present](https://pkg.go.dev/golang.org/x/tools/present)
+
+A few things to note about this directory:
+
+    golangbasics.slide is from [Drashti Ved repo](https://github.com/drashtived03/goslides), along with the assets directory and Golang-Logo.jpg
+    the present.slide and legacy.slide is taken from go lang's present tool website and slightly modified
+    hello directory has a simple hello world script written in go and this is used in a few of the slide presentations
+    slide directory has one more example to show how to override the default stylesheet to modify pagenumber order & colour
+        presenting this directory requires Option 1, see below under Override Style
+
+---
+
+### [Go and Microsoft SQL](https://github.com/davidhintelmann/data-access)
+
+This repo contains an example of how one can query a local instance of Microsoft SQL using the Go programming language
 
 <br>
 
